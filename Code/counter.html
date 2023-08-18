@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+
+      function increment() {
+        document.getElementById("counter").innerHTML =
+          Number(document.getElementById("counter").innerHTML) + 1;
+      }
+
+      function decrement() {
+        if(document.getElementById("counter").innerHTML !=0) { 
+        document.getElementById("counter").innerHTML =
+            document.getElementById("counter").innerHTML - 1;
+      }
+      }
+      
+    </script>
+  </head>
+  <body class="body">
+    <div id="count">
+    <div id="counter">1</div>
+    <button class="increment" onclick="increment()">+</button>
+    <button class="decrement" onclick="decrement()">-</button>
+    </div>
+    
+    
+  </body>
+</html>

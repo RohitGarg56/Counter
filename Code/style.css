@@ -1,0 +1,38 @@
+.body{
+	background-color:blanchedalmond;
+}
+
+#count{
+	height: 700px;
+	width: 1500px;
+	padding: 10 40px;
+	border-radius: 50px;
+	font-size: 40px;
+	background-image:url("image1.jpg");
+	border: 2px solid #000000;
+	color: rgb(255, 255, 255);
+	margin: 100;
+	margin-left: 150;
+	position: absolute;
+}
+
+#counter{
+	font-size: 500;
+	text-align: center;
+}
+
+.increment{
+	font-size: 100;
+	position: absolute;
+	bottom: 320;
+	margin-left: 200;
+	background-color: rosybrown;
+}
+
+.decrement{
+	font-size: 100;
+	position: absolute;
+	margin-left: 1200;
+	bottom: 320;
+	background-color: rosybrown;
+}
